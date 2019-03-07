@@ -1,0 +1,159 @@
+body
+{
+  background-image: url("imgs/background.jpg");
+  background-repeat: repeat-no;
+  font-family: 'Amatic SC', cursive;
+}
+
+.header-container
+{
+  background-color: red;
+  margin-bottom: 2px;
+  background:rgba(26,0,0,0.7); /* r, g, b, opacity */
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  /*border: 2px solid rgb(26, 0, 0, 0.3);*/
+  border-radius: 3px;
+  color: white;
+}
+
+.header
+{
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 25px;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+.menu
+{
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 90px;
+  color: white;
+}
+
+.address
+{
+  color: white;
+  font-size: 18px;
+}
+
+.main
+{
+  display: flex;
+  background:rgba(26,0,0,0.5); /* r, g, b, opacity */
+  padding: 90px;
+  flex-direction: row;
+  /*border: 2px solid rgb(26, 0, 0, 0.3);*/
+  border-radius: 5px;
+}
+
+.description
+{
+  color: white;
+  font-size: 20px;
+}
+
+.title
+{
+   color: white;
+}
+
+.img
+{
+   border-radius: 50%;
+}
+
+
+.footer
+{
+  display: flex;
+  background:rgba(26,0,0,0.7); /* r, g, b, opacity */
+  padding: 70px;
+  flex-direction: row;
+  justify-content: center;
+  /*border: 2px solid rgb(26, 0, 0, 0.3);*/
+  border-radius: 5px;
+  margin-top: 3px;
+  font-size: 25px;
+  color: white;
+}
+
+.copyright
+{
+  display: flex;
+  justify-content: center;
+}
+
+.main.reviews
+{
+  padding: 150px;
+}
+
+.review
+{
+  color: white;
+  font-size: 25px;
+}
+
+.review.author
+{
+  font-style: italic;
+  color: white;
+}
+
+.rows
+{
+   color: white;
+   display: flex;
+   flex-direction: row;
+   font-size: 20px;
+   flex: 0 0 100%; /*flex grow flex shrink flex-base*/
+   justify-content: space-around;
+}
+
+.main.contact
+{
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.phone
+{
+  color:white;
+}
+
+.email
+{
+  color: white;
+}
+
+input[type=text]
+{
+  width: 25%;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+}
+
+input[type=submit] {
+  background-color: #804000;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
